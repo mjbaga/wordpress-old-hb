@@ -1,6 +1,9 @@
 # Code Structure
 All the functionalities are created in plugins and are used in themes via widgets or shortcodes. 
 
+# Disclaimer 
+This project is for reference purposes only.
+
 ### Plugins
 All the plugins follow the following structure:-
 - assets: FE assets copied from prototype. Have to be copied manually.
