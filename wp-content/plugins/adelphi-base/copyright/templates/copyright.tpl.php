@@ -1,0 +1,1 @@
+<div class="footer--mini__item">&copy;<?php print $copyright_year; ?> <?php print $copyright; ?></div>

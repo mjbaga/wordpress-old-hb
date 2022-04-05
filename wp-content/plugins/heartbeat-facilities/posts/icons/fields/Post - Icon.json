@@ -1,0 +1,67 @@
+[
+    {
+        "key": "group_59152b46c1dbe",
+        "title": "Post - Icon",
+        "fields": [
+            {
+                "key": "field_59152b59fdb27",
+                "label": "Icon Class",
+                "name": "icon_class",
+                "type": "select",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "icon-gym": "Gym",
+                    "icon-swimming": "Pools",
+                    "icon-squash": "Squash Court",
+                    "icon-tennis": "Tennis Court",
+                    "icon-football": "Football",
+                    "icon-badminton": "Badminton"
+                },
+                "default_value": [],
+                "allow_null": 0,
+                "multiple": 0,
+                "ui": 0,
+                "ajax": 0,
+                "return_format": "value",
+                "placeholder": ""
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "hb-icons"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": [
+            "permalink",
+            "the_content",
+            "excerpt",
+            "custom_fields",
+            "discussion",
+            "comments",
+            "author",
+            "format",
+            "featured_image",
+            "categories",
+            "tags",
+            "send-trackbacks"
+        ],
+        "active": 1,
+        "description": ""
+    }
+]

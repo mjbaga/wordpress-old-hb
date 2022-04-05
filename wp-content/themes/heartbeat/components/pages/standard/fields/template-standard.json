@@ -1,0 +1,53 @@
+[
+    {
+        "key": "group_591cfb35454fc",
+        "title": "All Stores",
+        "fields": [
+            {
+                "key": "field_591cfb50ef6d0",
+                "label": "Stores",
+                "name": "stores",
+                "type": "relationship",
+                "instructions": "Select the stores you want to display",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "post_type": [
+                    "str-dine",
+                    "str-shop"
+                ],
+                "taxonomy": [],
+                "filters": [
+                    "search",
+                    "post_type",
+                    "taxonomy"
+                ],
+                "elements": "",
+                "min": "",
+                "max": "",
+                "return_format": "object"
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "page_template",
+                    "operator": "==",
+                    "value": "default"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": 1,
+        "description": ""
+    }
+]

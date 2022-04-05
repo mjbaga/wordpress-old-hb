@@ -1,0 +1,1 @@
+<input type="text" id="hb_address_option_id" name="hb_address_option_id" value="<?php print $address; ?>"/>
